@@ -1,0 +1,311 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  font-family: "OpenSans",OpenSans, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 100;
+  
+
+}
+
+h1,h2,h3,h4{
+  font-size:2.4em;
+  line-height: 50px;
+  font-weight: 150;
+}
+
+.textalligncenter{
+  text-align: center;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8); 
+  height: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.heart-text{
+  
+  float: left;
+  text-align: center;
+  padding-left: 3px;
+}
+
+.top-links {
+ 
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  width: 50%;
+  
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px; 
+}
+
+.clearfix{
+  clear:both;
+}
+
+.city-background{
+  background-color: rgb(32, 101, 136);
+  margin: 0 auto;
+  padding: 1% 0 0 1%;
+
+}
+
+.size-div1-header{
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.div-size-he{
+  margin: 0 auto;
+  float: left;
+  width: 10%;
+}
+
+.div-size-he-2{
+  float:left;
+  width:60%;
+  margin: 0 0 0 2%;
+  
+}
+
+.header-btn-red{
+  background-color:rgb(186, 37, 37);
+  color: white;
+  line-height: 0.5px;
+  text-decoration: none;
+  float: left;
+  width: 70px;
+  
+  padding: 19px 20px 19px 20px;
+  border: 2px black solid 0.2;
+  border-radius: 0 50px 50px 0;
+  text-align: center
+
+}
+
+.div-size-he-4{
+  float:left;
+  width:10%;
+  
+}
+
+.div-size-he-3{
+  float:right;
+  width:15%;
+  text-align: center;
+  margin: 0 3% 0 0;
+}
+
+.npm-logo{
+  height: 100%;
+  width: 100%;
+}
+.size-in-se{
+  float: left;
+  height: 40px;
+  border-style: inset;
+  border-color:  rgb(32, 101, 136);
+  background-color: rgb(249, 249, 249);
+  width: 100%;
+}
+
+
+
+#bear-logo{
+  height: 30px;
+  width: 30px;
+ }
+
+
+ .center-header{
+  margin: 0 auto;
+  width: 100%;
+  display: inline-block;
+  
+}
+
+.texto{
+  width: 45%;
+  float: left;
+  color:white;
+  padding-top: 5%;
+  margin-left: 4%;
+   
+}
+
+ .ciudad{
+  width: 45%;
+  float: right;
+  margin-right: 4%;
+ }
+
+.ciudad-img{
+  width: 100%;
+  height: 100%;  
+  float: left;
+}
+
+
+.dark-background{
+  background: rgb(39, 53, 71);
+  width: 0 auto;
+  margin: 0 auto;
+}
+
+.img-colaboration{
+  
+  width: 100%;
+  height: 100%;
+  padding-top: 20%;
+}
+
+
+.img-size-col{
+  width: 40%;
+  float:left;
+  margin-left: 5%;
+  
+}
+
+
+.h2-ul-button-sizes{
+  width:40%;
+  float: right;
+  color:white;
+  float:right;
+  margin-top:8%;
+  margin-right: 10%;
+  padding-bottom: 5%;
+}
+
+.center-section1{
+  width: 100%; 
+  display: inline-block;
+}
+
+.ul-collaboration{
+  margin-left:10%;
+  width: 70%;
+}
+
+.background-size{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  color: white;
+  width: 0 auto;
+  margin: 0 auto;
+  
+}
+
+
+
+.position-section-2{
+  position: relative;
+  margin: 0 auto;
+  padding:10%;
+  width: 75%;
+}
+
+
+.article-size-sect3{
+  position: relative;
+  margin:0 auto;
+  width: 90%;
+  padding-bottom: 5%;
+  
+}
+
+.div1-size-sect3{
+  margin:0 auto;
+  text-align: center;
+  color:rgb(83, 88, 98);
+  position:relative;
+  width: 80%;
+  padding: 5%;
+}
+
+.colorfont-p-sec3{
+  color:rgb(135, 145, 156);
+
+}
+
+.div2-size-sect3{
+  display:inline-block;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  
+  
+}
+
+.col-middle{
+  margin:0 4.5%;
+}
+
+.col-float-rigth{
+  float:right;
+}
+
+
+.link-btn{
+  background-color: rgb(247, 178, 75);
+  color: white;
+  line-height: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 20px 0;
+  padding: 30px 20px 30px 20px;
+  border: 2px black solid 0.2;
+  border-radius: 50px 50px;
+}
+
+.link-btn-red{
+  background-color:rgb(186, 37, 37);
+  color: white;
+  line-height: 0.5px;
+  text-decoration: none;
+  display: block;
+  width: 60%;
+  margin: 40px auto 0 auto;
+  padding: 30px 20px 30px 20px;
+  border: 2px black solid 0.2;
+  border-radius: 50px 50px;
+  text-align: center
+
+}
+
+.link-btn-grey{
+  background-color: rgb(42, 55, 69);
+  color: white;
+  line-height: 0.5px;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0 0;
+  padding: 30px 20px 30px 20px;
+  border: 2px black solid 0.2;
+  text-align: center;
+  border-radius: 50px 50px;
+}
